@@ -18,7 +18,9 @@ namespace _5._2._2_kalkulator
             {
                 br1 = float.Parse(Console.ReadLine());
             }
-            catch (Exception)
+#pragma warning disable CS0168 // Variable is declared but never used
+            catch (Exception eex)
+#pragma warning restore CS0168 // Variable is declared but never used
             {
                 Console.WriteLine("Ne prepoznajem broj");
 
@@ -29,9 +31,12 @@ namespace _5._2._2_kalkulator
             {
                 br2 = float.Parse(Console.ReadLine());
             }
-            catch (Exception)
+#pragma warning disable CS0168 // Variable is declared but never used
+            catch (Exception eex)
+#pragma warning restore CS0168 // Variable is declared but never used
             {
                 Console.WriteLine("Ne prepoznajem broj");
+                br2 = 0;
             }
             Console.WriteLine("Unesi operator: \n+ , -, * ili /");
             char op = char.Parse(Console.ReadLine());
