@@ -31,13 +31,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prijestupna_godina", "Prije
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.3_ciklickepetlje", "5.3_ciklickepetlje", "{C3EED3CF-AF7F-4472-A1FC-31390D0CBA61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.2_danutjednu", "5.2.2_danutjednu\5.2.2_danutjednu.csproj", "{6E919F5F-9EBA-4A25-A511-575A1FDF149A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.2.2_danutjednu", "5.2.2_danutjednu\5.2.2_danutjednu.csproj", "{6E919F5F-9EBA-4A25-A511-575A1FDF149A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strukturirano_upravljanje_exceptionima", "strukturirano_upravljanje_exceptionima\strukturirano_upravljanje_exceptionima.csproj", "{D262311C-05EE-449F-899F-537F6AEA133D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "strukturirano_upravljanje_exceptionima", "strukturirano_upravljanje_exceptionima\strukturirano_upravljanje_exceptionima.csproj", "{D262311C-05EE-449F-899F-537F6AEA133D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.4.1_userpass", "5.2.4.1_userpass\5.2.4.1_userpass.csproj", "{0453A240-3E40-400E-AD2A-703F35ED9C0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.2.4.1_userpass", "5.2.4.1_userpass\5.2.4.1_userpass.csproj", "{0453A240-3E40-400E-AD2A-703F35ED9C0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.3.1_for", "5.3.1_for\5.3.1_for.csproj", "{EE854B0A-79FA-431A-98A2-86A65FE9CDC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.3.1_for", "5.3.1_for\5.3.1_for.csproj", "{EE854B0A-79FA-431A-98A2-86A65FE9CDC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kalkulator_2", "kalkulator_2\kalkulator_2.csproj", "{DD06DC8C-1049-4C66-ADCC-916BCB7DA457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zavrsni_uspjeh", "zavrsni_uspjeh\zavrsni_uspjeh.csproj", "{59D43773-24E8-4D66-A6DB-E75A8FB3F3BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.Nizovi", "6.Nizovi", "{BAAA754B-15FF-4E5F-BDB7-333ADF2612DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_nizovi_liste", "6_nizovi_liste\6_nizovi_liste.csproj", "{B2DA4AD7-0EA1-4CDE-BC50-7FE049961BAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +113,18 @@ Global
 		{EE854B0A-79FA-431A-98A2-86A65FE9CDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE854B0A-79FA-431A-98A2-86A65FE9CDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE854B0A-79FA-431A-98A2-86A65FE9CDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD06DC8C-1049-4C66-ADCC-916BCB7DA457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD06DC8C-1049-4C66-ADCC-916BCB7DA457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD06DC8C-1049-4C66-ADCC-916BCB7DA457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD06DC8C-1049-4C66-ADCC-916BCB7DA457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D43773-24E8-4D66-A6DB-E75A8FB3F3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D43773-24E8-4D66-A6DB-E75A8FB3F3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D43773-24E8-4D66-A6DB-E75A8FB3F3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D43773-24E8-4D66-A6DB-E75A8FB3F3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2DA4AD7-0EA1-4CDE-BC50-7FE049961BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DA4AD7-0EA1-4CDE-BC50-7FE049961BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2DA4AD7-0EA1-4CDE-BC50-7FE049961BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DA4AD7-0EA1-4CDE-BC50-7FE049961BAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +145,9 @@ Global
 		{D262311C-05EE-449F-899F-537F6AEA133D} = {C68F3413-42B2-4B2C-812F-B32A32066FDF}
 		{0453A240-3E40-400E-AD2A-703F35ED9C0A} = {C68F3413-42B2-4B2C-812F-B32A32066FDF}
 		{EE854B0A-79FA-431A-98A2-86A65FE9CDC0} = {C3EED3CF-AF7F-4472-A1FC-31390D0CBA61}
+		{DD06DC8C-1049-4C66-ADCC-916BCB7DA457} = {C3EED3CF-AF7F-4472-A1FC-31390D0CBA61}
+		{59D43773-24E8-4D66-A6DB-E75A8FB3F3BE} = {C3EED3CF-AF7F-4472-A1FC-31390D0CBA61}
+		{B2DA4AD7-0EA1-4CDE-BC50-7FE049961BAE} = {BAAA754B-15FF-4E5F-BDB7-333ADF2612DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82948EB5-6E29-47ED-BAC1-7CE74C088546}
