@@ -65,11 +65,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_3_1_vozila", "8_3_1_vozil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "voce_vjezba", "voce_vjezba\voce_vjezba.csproj", "{0638032B-DA0E-492D-8F4F-5FC2E218866D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_2_2_2_prijenos_out", "8_2_2_2_prijenos_out\8_2_2_2_prijenos_out.csproj", "{50552B04-BF78-40EC-A6FB-6080FF957843}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_2_2_2_prijenos_out", "8_2_2_2_prijenos_out\8_2_2_2_prijenos_out.csproj", "{50552B04-BF78-40EC-A6FB-6080FF957843}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9_rad_s_tekstsom", "9_rad_s_tekstsom", "{194F4C5F-5A9B-4EF5-BBAF-044D0D11E116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "znak u rijeci", "znak u rijeci\znak u rijeci.csproj", "{C7A77A90-1E81-4738-AA8C-541C2B1E1D31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "znak u rijeci", "znak u rijeci\znak u rijeci.csproj", "{C7A77A90-1E81-4738-AA8C-541C2B1E1D31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svakadvadrugaslova", "Svakadvadrugaslova\Svakadvadrugaslova.csproj", "{2F1DD242-674E-49BE-879D-9FC79D7BA316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rastavitistringnaliste", "rastavitistringnaliste\rastavitistringnaliste.csproj", "{ABAFD73F-C93E-44BE-8A24-FE3BDF9D2808}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Datoteke", "Datoteke", "{C5F84227-B866-408C-817B-00D18357B386}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -185,6 +191,14 @@ Global
 		{C7A77A90-1E81-4738-AA8C-541C2B1E1D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7A77A90-1E81-4738-AA8C-541C2B1E1D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7A77A90-1E81-4738-AA8C-541C2B1E1D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F1DD242-674E-49BE-879D-9FC79D7BA316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1DD242-674E-49BE-879D-9FC79D7BA316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1DD242-674E-49BE-879D-9FC79D7BA316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1DD242-674E-49BE-879D-9FC79D7BA316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABAFD73F-C93E-44BE-8A24-FE3BDF9D2808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAFD73F-C93E-44BE-8A24-FE3BDF9D2808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAFD73F-C93E-44BE-8A24-FE3BDF9D2808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAFD73F-C93E-44BE-8A24-FE3BDF9D2808}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -217,6 +231,8 @@ Global
 		{0638032B-DA0E-492D-8F4F-5FC2E218866D} = {3C271149-67AD-4355-81DB-8DA4E509B57E}
 		{50552B04-BF78-40EC-A6FB-6080FF957843} = {3C271149-67AD-4355-81DB-8DA4E509B57E}
 		{C7A77A90-1E81-4738-AA8C-541C2B1E1D31} = {194F4C5F-5A9B-4EF5-BBAF-044D0D11E116}
+		{2F1DD242-674E-49BE-879D-9FC79D7BA316} = {194F4C5F-5A9B-4EF5-BBAF-044D0D11E116}
+		{ABAFD73F-C93E-44BE-8A24-FE3BDF9D2808} = {194F4C5F-5A9B-4EF5-BBAF-044D0D11E116}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82948EB5-6E29-47ED-BAC1-7CE74C088546}
